@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int x,y,q;
+cout << "masukkan nilai Q: ";
+cin >> q;
+for (x=1; x<=q; x++){
+cin >> q;
+for (x=1; x<=q; x++){
+for (y=1; y<=x; y++){
+cout <<"Q";
+}
+cout <<endl;
+}
+return 0;
+}
